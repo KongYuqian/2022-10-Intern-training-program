@@ -1,0 +1,73 @@
+.classA {
+    border-style: solid;
+    border-color: black;
+    background-color: gainsboro;
+    width: 600px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.classB {
+    width: 600px;
+    padding: 5px 20px 5px 20px;
+    border: 4px solid #000;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: border .2s,box-shadow .2s;
+    -webkit-transition: border .2s,box-shadow .2s;
+}
+
+
+.classB:hover {
+    border: 4px solid red;
+    box-shadow: 10px 10px 20px gray;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.botton {
+    color: #FFFFFF;
+    background-color: black;
+    align-self: flex-end;
+    /*右对齐*/
+    margin: 5px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.inputclass {
+    width: 590px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 2px;
+}
+
+.main {
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 1000px;
+}
+
+.classBarea {
+    position: absolute;
+    height: 400px;
+    overflow-y: auto;
+}
+
+h3 {
+    margin: 0.5em;
+    margin-left: 0px;
+}
+
+p {
+    margin: 0px;
+}
